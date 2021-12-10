@@ -57,15 +57,6 @@ void afficheMorpion(char tab[3][3])
     }
 }
 
-void afficherLigne(unsigned int nombreCases)
-{
-    cout << endl << "+";
-    for (unsigned int i = 0; i < nombreCases; i++)
-    {
-        cout << "---+";
-    }
-    cout << endl;    
-}
 
 void afficherTableauDeNombres(short int tab[LARGEUR][LONGUEUR], unsigned short int LARGEUR, unsigned short int LONGUEUR)
 {
